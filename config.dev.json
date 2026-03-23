@@ -1,0 +1,44 @@
+{
+  "author": ["MahMUD"],
+  "facebookAccount": {
+    "email": "your_facebook_email@gmail.com",
+    "password": "your_facebook_password",
+    "2FASecret": "",
+    "i_user": "",
+    "proxy": null,
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+    "intervalGetNewCookie": 1440
+  },
+  "language": "en",
+  "adminBot": ["YOUR_FACEBOOK_ID_HERE"],
+  "nickNameBot": "Tsunade 🫦",
+  "prefix": "!",
+  "database": {
+    "type": "sqlite",
+    "autoRefreshThreadInfoFirstTime": true
+  },
+  "timeZone": "Asia/Dhaka",
+  "credentials": {
+    "gmailAccount": {
+      "email": "your_email@gmail.com",
+      "clientId": "YOUR_CLIENT_ID",
+      "clientSecret": "YOUR_CLIENT_SECRET",
+      "refreshToken": "YOUR_REFRESH_TOKEN"
+    },
+    "gRecaptcha": {
+      "siteKey": "YOUR_SITE_KEY",
+      "secretKey": "YOUR_SECRET_KEY"
+    }
+  },
+  "dashBoard": {
+    "enable": true,
+    "port": 3001
+  },
+  "serverUptime": {
+    "enable": true,
+    "port": 3002
+  },
+  "autoRestart": {
+    "time": 3600000
+  }
+}
